@@ -6,4 +6,4 @@ RUN echo "deb http://apt.syncthing.net/ syncthing release" | sudo tee /etc/apt/s
 RUN sudo apt-get update
 RUN sudo apt-get install syncthing
 ENTRYPOINT syncthing
-EXPOSE 8384 22000 21027/udp
+EXPOSE 8384 22000 21015/udp 21027/udp
